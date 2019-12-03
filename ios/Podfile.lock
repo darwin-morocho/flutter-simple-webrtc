@@ -1,0 +1,33 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_webrtc (0.1.6):
+    - Flutter
+    - GoogleWebRTC (= 1.1.27299)
+    - libyuv-iOS
+  - GoogleWebRTC (1.1.27299)
+  - libyuv-iOS (1.0.2)
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_webrtc (from `.symlinks/plugins/flutter_webrtc/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleWebRTC
+    - libyuv-iOS
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_webrtc:
+    :path: ".symlinks/plugins/flutter_webrtc/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_webrtc: b4d969a556b246378adb24262375b0204e1e89df
+  GoogleWebRTC: 893a5f2f3635437ec3b05ef240993d5713307804
+  libyuv-iOS: 5a154ccc84ec754029886ecb607512731fe30640
+
+PODFILE CHECKSUM: 2c26e2bafa90f053205a9e99ab1fdce88251e293
+
+COCOAPODS: 1.7.3
